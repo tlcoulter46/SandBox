@@ -1,0 +1,71 @@
+h2 {
+  color: white;
+  background-color: blue;
+  text-align: center;
+  font: 700 16px Open Sans;
+  top: 0px;
+  margin: 0px;
+  padding: 5px;
+  text-transform: capitalize;
+  border-bottom: 2px solid rgb(136, 136, 136);
+}
+
+input[type=text],
+select {
+  font: 700 16px Open Sans;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form label {
+  display: inline-block;
+  width: 100px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+.tableFixHead {
+  overflow-y: auto;
+  /* make the table scrollable if height is more than 200 px  */
+  height: 200px;
+  /* gives an initial height of 200px to the table */
+}
+
+.tableFixHead thead th {
+  position: sticky;
+  /* make the table heads sticky */
+  top: 0px;
+  /* table head will be placed from the top of the table and sticks to it */
+}
+
+table {
+  border-collapse: collapse;
+  /* make the table borders collapse to each other */
+  width: 25%;
+}
+
+th,
+td {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background: #dbc7ed;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
