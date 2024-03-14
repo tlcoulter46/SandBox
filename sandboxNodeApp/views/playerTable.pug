@@ -1,0 +1,13 @@
+// still need to sort player data, but it would probably 
+// be easier to sort it while it is in an array in playerTable.js 
+table#myTable
+  thead
+    tr
+      th First Name
+      th Last Name
+  tbody
+    each plr in playerList.data
+        tr
+            td #{plr.firstName}
+            td #{plr.lastName}
+
