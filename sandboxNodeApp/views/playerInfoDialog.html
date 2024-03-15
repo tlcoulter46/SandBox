@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/LayoutTample.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Sandbox</title>
+</head>
+
+<body>
+  <script src="src/action.js"></script>
+  <script src="src/sort.js"></script>
+
+  <div class="grid-container">
+    <div class="item1">
+      <header>Display Golfer Information</header>
+    </div>
+
+    <div class="item2" style="overflow-x:auto;">
+
+      <p class="tableLabel">Player List</p>
+
+      <div class="tableFixHead">
+        <p id="demo"></p>
+      </div>
+    </div>
+
+    <div class="item3">
+      <p class="formLabel">Player Information</p>
+      <div class="z">
+        <form id="myForm" action="">
+          <label for="fname">First Name</label><br>
+          <input type="text" name="fname"><br>
+          <label for="lname">Last Name</label><br>
+          <input type="text" name="lname"><br>
+          <label for="phone">Phone</label><br>
+          <input type="tel" name="phone"><br>
+          <label for="email">Email</label><br>
+          <input type="email" name="email"><br>
+          <label for="spring">Spring League </label>
+          <input type="checkbox" name="spring"><br>
+          <label for="fall">Fall League</label>
+          <input type="checkbox" name="fall"><br><br>
+        </form>
+      </div>
+    </div>
+
+    <div class="item4">
+      <footer>Author: Tim</footer>
+    </div>
+  </div>
+
+  <script>
+    window.demoJSON("data/Player.json");
+  </script>
+</body>
+
+</html>
