@@ -10,12 +10,11 @@ async function demoJSON(fileName) {
  * @param {} obj 
  */
 function createTable(obj) {
-  let table = "<table  id='myTable'>";
+  let table = "<table id='myTable'>";
+
   table += "<thead>";
-  table += "<tr>";
-  table += "<th onclick='sortTable(0)'>First Name</th>";
-  table += "<th onclick='sortTable(1)'>Last Name</th>";
-  table += "</tr>";
+  table += "<th style='width: 150px' onclick='sortTable(0)'>First Name</th>";
+  table += "<th style='width: 150px' onclick='sortTable(1)'>Last Name</th>";
   table += "</thead>";
 
   table += "<tbody>";

@@ -1,5 +1,8 @@
 {
-  "customer": "Alfreds Futterkiste",
-  "product": "Chais",
-  "supplier": "Exotic Liquid"
+  "firstName": "Bill",
+  "lastName": "Shepard",
+  "phone": "(720)-550-1695",
+  "email": "swshep5@msn.com",
+  "spring": true,
+  "fall": true
 }
