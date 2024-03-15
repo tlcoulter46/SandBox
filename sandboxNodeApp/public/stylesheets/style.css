@@ -71,6 +71,12 @@ th {
   background: #dbc7ed;
 }
 
+th:hover{
+  cursor:pointer;
+ background:#AAA;
+ 
+}
+
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
