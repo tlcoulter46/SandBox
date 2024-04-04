@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+
+  <script src="./scripts/table.js"></script>
+  <script src="./scripts/form.js"></script>
+  <script src="./scripts/script.js"></script>
+
+  <title>Hackers</title>
+</head>
+
+<body>
+  <header>
+    <h2>Hackers Golf League</h2>
+  </header>
+
+  <section>
+    <nav>
+      <table id="navigableTable"></table>
+    </nav>
+
+    <article>
+      <form id="myForm" class="myForm"">
+        <label for=" fname">First name</label>
+        <input type="text" id="fname" name="fname" value="" autofocus>
+        <label for="lname">Last name</label>
+        <input type="text" id="lname" name="lname" value="">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" value="">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" value="">
+        <div id="checkboxs">
+          <label>Spring 2024</label>
+          <input type="checkbox" id="spring" name="spring"><br>
+          <label>Fall 2024</label>
+          <input type="checkbox" id="fall" name="fall">
+        </div>
+        <div class="center" id="buttons"><br>
+          <button id="reset" type="reset">Reset</button>
+          <button id="submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </article>
+  </section>
+
+  <footer>
+    <p>Footer</p>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+[
+  {
+    "firstName": "Gary",
+    "lastName": "Bondurant",
+    "phone": "(303)-868-9046",
+    "email": "gbondurant53@gmail.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Curt",
+    "lastName": "Bougie",
+    "phone": "(303)-979-8670",
+    "email": "curt.bougie@ffcpresents.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Jim",
+    "lastName": "Christensen",
+    "phone": "(303)-285-1821",
+    "email": "jchristensen@SNCorp.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Tony",
+    "lastName": "Corral",
+    "phone": "(303)-349-2881",
+    "email": "denverdiver@comcast.net",
+    "spring": false,
+    "fall": true
+  },
+  {
+    "firstName": "Tim",
+    "lastName": "Coulter",
+    "phone": "(303)-829-6583",
+    "email": "tim.l.coulter@gmail.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Jim",
+    "lastName": "Everhart",
+    "phone": "(303)-883-0789",
+    "email": "everhartmorrison@aol.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Matt",
+    "lastName": "Farwell",
+    "phone": "(303)-725-7901",
+    "email": "matt.s.farwell@lmco.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Sam",
+    "lastName": "Ferris",
+    "phone": "(303)-979-8670",
+    "email": "sjferris12@gmail.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "John",
+    "lastName": "Grosso",
+    "phone": "(303)-944-6544",
+    "email": "john@completeav.biz",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Fran",
+    "lastName": "Gulick",
+    "phone": "(303)-503-0389",
+    "email": "Fran.Gulick@sncorp.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Jim",
+    "lastName": "Harris",
+    "phone": "(303)-977-4227",
+    "email": "coniferjim@yahoo.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Gary",
+    "lastName": "Hetzel",
+    "phone": "(303)-349-6171",
+    "email": "gary.b.hetzel@lmco.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Kevin",
+    "lastName": "Johnson",
+    "phone": "(303)-977-3307",
+    "email": "kevin.s.johnson@lmco.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Ty",
+    "lastName": "Meusberger",
+    "phone": "(720)-470-7824",
+    "email": "ty.m.meusburger@lmco.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Pete",
+    "lastName": "Munoz",
+    "phone": "(720)-308-1828",
+    "email": "petemunoz29@gmail.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Tom",
+    "lastName": "Nordeck",
+    "phone": "(303)-704-8030",
+    "email": "tnordeck@yahoo.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Greg",
+    "lastName": "Paulsen",
+    "phone": "(303)-971-7115",
+    "email": "gregory.c.paulsen@lmco.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Frank",
+    "lastName": "Rausch",
+    "phone": "(720)-922-5977",
+    "email": "frank.s.rausch@lmco.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Jeff",
+    "lastName": "Rogers",
+    "phone": "(303)-594-4056",
+    "email": "jeffrey.j.rogers@ulalaunch.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Bob",
+    "lastName": "Roth",
+    "phone": "(303)-883-7089",
+    "email": "bobanddebroth@gmail.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Bill",
+    "lastName": "Shepard",
+    "phone": "(720)-550-1695",
+    "email": "swshep5@msn.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Jeff",
+    "lastName": "Vaughn",
+    "phone": "(720)-620-1173",
+    "email": "jeff@marxaire.com",
+    "spring": true,
+    "fall": true
+  },
+  {
+    "firstName": "Steve",
+    "lastName": "Wilson",
+    "phone": "(303)-909-0403",
+    "email": "scwilson@acsol.net",
+    "spring": true,
+    "fall": true
+  }
+]
