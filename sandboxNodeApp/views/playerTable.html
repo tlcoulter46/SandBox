@@ -1,14 +1,25 @@
-<table  id='myTable'>
+<!-- still need to sort player data, but it would probably -->
+<!-- be easier to sort it while it is in an array in playerTable.js -->
+<h1>New table</h1>
+<table id="myTable">
+    <script type="text/javascript" src="/public/javascripts/sort.js"></script>
+    <h2>Player List</h2>
     <thead>
         <tr>
-            <th onclick='sortTable(0)'>First Name</th>
-            <th onclick='sortTable(1)'>Last Name</th>
+            <th onclick="sortTable(0)">First Name</th>
+            <th onclick="sortTable(1)">Last Name</th>
         </tr>
     </thead>
     <tbody>
+        <tr id="rows">
+            <script>
+                var x ="";
+                playerList.data.forEach(element => {
+                    x = x + "<td>" + element.firstName + "</td>"
+                    x = x + "<td>" + element.lastName + "</td>"
+                });
+                document.getElementById("rows").innerHTML = x;
+            </script>
         <tr>
-            <td>obj.row[i].firstName</td>
-            <td>obj.row[i].lastName</td>
-        </tr> 
     </tbody>
 </table>
