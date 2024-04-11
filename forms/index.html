@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Form Land</title>
+</head>
+
+<body>
+  <header>
+    <h2>Tim's form sandbox</h2>
+  </header>
+
+  <form class="form" onreset="initForm()" onSubmit="saveForm()">
+    <label for="fname">First name</label>
+    <input type="text" id="fname" name="fname">
+    <label for="lname">Last name</label>
+    <input type="text" id="lname" name="lname">
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+    <div id="checkboxs">
+      <label>Spring 2024</label>
+      <input type="checkbox" id="spring" name="spring"><br>
+      <label>Fall 2024</label>
+      <input type="checkbox" id="fall" name="fall">
+    </div>
+    <div class="center" id="buttons">
+      <button id="search">Search</button>
+      <button id="reset" type="reset">Reset</button>
+      <button id="Submit" type="submit">Submit</button>
+    </div>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
